@@ -1,0 +1,85 @@
+.App {
+  font-family: Cambria, serif;
+}
+h2 {
+  font-size: 1.8rem;
+}
+.nav {
+  background: linear-gradient(rgb(53, 185, 49), white);
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.2rem 1rem;
+  box-shadow: 0 12px 12px brown;
+}
+.image-meme {
+  width: 5rem;
+}
+.m-left {
+  margin-left: auto;
+  padding: 0 2rem;
+  color: brown;
+  font-size: 1.4rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem 5rem 0 5rem;
+  gap: 2rem;
+}
+.form-input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-family: Cambria, serif;
+  font-size: 1.2rem;
+  text-indent: 5px;
+}
+
+.btn {
+  padding: 0.5rem 5rem;
+  grid-column: 1/-1;
+  background: linear-gradient(rgb(53, 185, 49), white);
+  color: brown;
+  font-weight: bolder;
+  border: 2px solid gray;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-family: Cambria, serif;
+}
+
+.image-display {
+  width: 30rem;
+  max-width: 100%;
+  margin: 1rem 25rem;
+  border-radius: 2rem;
+  /* height: max-content; */
+}
+
+.meme {
+  position: relative;
+}
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 45%;
+  transform: translateX(-50%);
+  margin: 2rem 0;
+  padding: 0 5px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: beige;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
